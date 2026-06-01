@@ -105,4 +105,19 @@ const a16 = a15.sort((a,b) => a-b) // a-b for ascending order
 console.log(a16); // [ 10, 20, 30, 40 ]
 const a17 = a15.sort((a,b) => b-a) // b-a for descending order
 console.log(a17); // [ 40, 30, 20, 10 ]
-// sort() is used t0 sort the array
+// sort() is used to sort the array
+
+
+// Final Verdict
+// 1. slice() → returns new array, original unchanged
+// 2. splice() → modifies original array
+// 3. concat() & spread → merge arrays
+// 4. flat() → flatten nested arrays
+// 5. Array.from() → convert string/iterable to array
+// 6. push/pop → add/remove from end
+// 7. shift/unshift → add/remove from start
+// 8. Array.isArray() → check if variable is array
+// 9. reduce() → sum, subtraction, multiplication, division, max, min
+// 10. filter() → select elements by condition
+// 11. map() → transform elements, always returns new array
+// 12. sort() → arrange elements (ascending/descending with compare function)
