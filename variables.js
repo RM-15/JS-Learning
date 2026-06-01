@@ -82,7 +82,7 @@ console.log(c5); //null
 // null ek intentional assignment hota hai jo batata hai ki variable ki value "kuch nahi" hai.
 
 
-//Final verdict
+// Final verdict
 // Jab value fix ho (jaise PI, API_KEY, MAX_USERS) → const use karo.
 // Jab value change ho sakti ho → let use karo.
 // var avoid karo kyunki outdated hai aur scope issues create karta hai.

@@ -135,14 +135,14 @@ console.log({name:"Rehan"} == {name:"Rehan"}); //false
 
 
 // Final Verdict
-// 1. Object.keys / values / entries → extract properties
-// 2. Object.freeze → no add/delete/modify allowed
-// 3. Object.seal → modify allowed, add/delete not allowed
-// 4. Destructuring → easy property extraction
-// 5. Merge → spread operator or Object.assign()
-// 6. Symbol → unique hidden property
-// 7. hasOwnProperty → check if property exists directly
-// 8. Nested objects → access with dot/bracket notation
-// 9. Object.defineProperty → add property with custom settings (non-enumerable, non-writable)
-// 10. {} + {} → string conversion → "[object Object][object Object]"
-// 11. Comparing objects → always false unless same reference
+// Object.keys / values / entries → extract properties
+// Object.freeze → no add/delete/modify allowed
+// Object.seal → modify allowed, add/delete not allowed
+// Destructuring → easy property extraction
+// Merge → spread operator or Object.assign()
+// Symbol → unique hidden property
+// hasOwnProperty → check if property exists directly
+// Nested objects → access with dot/bracket notation
+// Object.defineProperty → add property with custom settings (non-enumerable, non-writable)
+// {} + {} → string conversion → "[object Object][object Object]"
+// Comparing objects → always false unless same reference

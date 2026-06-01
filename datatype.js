@@ -65,10 +65,10 @@ console.log(sym1 === sym2); // false
 
 
 // Final Verdict
-// 1. Primitive: String, Number (NaN, Infinity), Boolean, Undefined, Null, Symbol, BigInt
-// 2. Non-Primitive: Object, Array, Function
-// 3. Special cases: typeof null → object, typeof NaN → number
-// 4. Prefer === over == for strict comparison
+// Primitive: String, Number (NaN, Infinity), Boolean, Undefined, Null, Symbol, BigInt
+// Non-Primitive: Object, Array, Function
+// Special cases: typeof null → object, typeof NaN → number
+// Prefer === over == for strict comparison
 
 
 // Special Cases Table

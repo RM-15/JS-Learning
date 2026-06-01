@@ -65,13 +65,13 @@ console.log(str7.endsWith("World"));   // true
 // startsWith() and endsWith() checks the prefix/suffix
 
 // Final Verdict
-// 1. length → total characters
-// 2. toUpperCase / toLowerCase → case conversion
-// 3. trim → remove spaces
-// 4. includes → check substring
-// 5. indexOf / lastIndexOf → position of character
-// 6. slice → extract substring
-// 7. replace / replaceAll → text replacement
-// 8. split → convert string to array
-// 9. charAt / charCodeAt → character + ASCII code
-// 10. startsWith / endsWith → check prefix/suffix
+// Length → total characters
+// toUpperCase / toLowerCase → case conversion
+// trim → remove spaces
+// includes → check substring
+// indexOf / lastIndexOf → position of character
+// slice → extract substring
+// replace / replaceAll → text replacement
+// split → convert string to array
+// charAt / charCodeAt → character + ASCII code
+// startsWith / endsWith → check prefix/suffix
