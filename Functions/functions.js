@@ -147,7 +147,7 @@ console.log(char("javaScript")); // j
 // .split() se string se array mai convert hoga and .shift ek first char of array remove hota hai jo maine return kiya hai 
 
 
-// Final Verdict
+// ------------------ Final Verdict ------------------
 // Function → reusable block of code, ek baar likho, baar‑baar use karo
 // Syntax → function functionName(parameters){ ... return value; }
 // Parameters → placeholders in definition

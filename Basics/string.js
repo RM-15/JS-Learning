@@ -1,3 +1,9 @@
+// STRINGS IN JAVASCRIPT
+// String ek sequence of characters hota hai.
+// Common operations: length, case conversion, trimming, searching, extracting, replacing, splitting.
+// Is file mein hum string ke important methods cover karenge with examples.
+
+
 //Find length of a string
 let str = "Rehan";
 console.log(str.length); // 5
@@ -64,14 +70,15 @@ console.log(str7.startsWith("Hello")); // true
 console.log(str7.endsWith("World"));   // true
 // startsWith() and endsWith() checks the prefix/suffix
 
-// Final Verdict
-// Length → total characters
-// toUpperCase / toLowerCase → case conversion
-// trim → remove spaces
-// includes → check substring
-// indexOf / lastIndexOf → position of character
-// slice → extract substring
-// replace / replaceAll → text replacement
-// split → convert string to array
-// charAt / charCodeAt → character + ASCII code
-// startsWith / endsWith → check prefix/suffix
+// ------------------ FINAL VERDICT ------------------
+// length = total characters
+// toUpperCase / toLowerCase = case conversion
+// trim = remove spaces (start + end)
+// includes = check substring presence
+// indexOf / lastIndexOf = position of character
+// slice = extract substring
+// replace / replaceAll = text replacement
+// split = convert string to array
+// charAt / charCodeAt = character + ASCII/Unicode value
+// startsWith / endsWith = check prefix/suffix
+// Matlab: ye methods tumhe string manipulation ke saare common use cases ke liye ready karte hain.

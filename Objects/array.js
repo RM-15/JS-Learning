@@ -1,3 +1,10 @@
+// ARRAYS IN JAVASCRIPT
+// Array ek ordered collection hai jisme multiple values store ki ja sakti hain.
+// Index 0 se start hota hai, aur elements kisi bhi type ke ho sakte hain.
+// Common operations: add/remove, merge, flatten, transform, filter, reduce, sort.
+// Is file mein hum important array methods cover karenge with examples.
+
+
 // Slice vs Splice on [10,20,30,40,50].
 const Myarr = [10,20,30,40,50]
 const n1 = Myarr.slice(1,3)
@@ -56,9 +63,9 @@ const Rehan = [ 'Naman', 'Rishabh', 'Sahil', 'Rehan', 'Arush', 'Shounak']
 console.log(Array.isArray(Rehan)); // True   because Rehan is already declared array
 console.log(Array.isArray('Rehan')); // False 'Rehan' is a string
 //Array.isarray() check krta hai ki whether the argument passed is an array or not
-// Array.isArray([]) → true
-// Array.isArray({}) → false
-// Array.isArray(undefined) → false
+// Array.isArray([]) = true
+// Array.isArray({}) = false
+// Array.isArray(undefined) = false
 
 
 // Create array of numbers and find sum using reduce().
@@ -108,16 +115,16 @@ console.log(a17); // [ 40, 30, 20, 10 ]
 // sort() is used to sort the array
 
 
-// Final Verdict
-// slice() → returns new array, original unchanged
-// splice() → modifies original array
-// concat() & spread → merge arrays
-// flat() → flatten nested arrays
-// Array.from() → convert string/iterable to array
-// push/pop → add/remove from end
-// shift/unshift → add/remove from start
-// Array.isArray() → check if variable is array
-// reduce() → sum, subtraction, multiplication, division, max, min
-// filter() → select elements by condition
-// map() → transform elements, always returns new array
-// sort() → arrange elements (ascending/descending with compare function)
+// ------------------ Final Verdict ------------------
+// slice() = returns new array, original unchanged
+// splice() = modifies original array
+// concat() & spread = merge arrays
+// flat() = flatten nested arrays
+// Array.from() = convert string/iterable to array
+// push/pop = add/remove from end
+// shift/unshift = add/remove from start
+// Array.isArray() = check if variable is array
+// reduce() = sum, subtraction, multiplication, division, max, min
+// filter() = select elements by condition
+// map() = transform elements, always returns new array
+// sort() = arrange elements (ascending/descending with compare function)

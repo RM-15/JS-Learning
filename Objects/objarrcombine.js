@@ -1,3 +1,10 @@
+// ARRAY OF OBJECTS IN JAVASCRIPT
+// Real-world data mostly arrays of objects ke form mein hota hai.
+// Example: students, products, users.
+// Is file mein hum array + object combine karke practice karenge.
+// Common operations: access properties, filter, add, sort, map, reduce.
+
+
 // Create array of student objects and print names.
 const student = [
     {
@@ -73,3 +80,14 @@ const c4 = student.reduce((a,b) => a.marks > b.marks ? a : b)
 console.log(c4); // { name: 'Rishabh', state: 'Maharashtra', age: 27, marks: 90 }
 //.reduce can b also use to find sum, diff,max ,min,etc
 //same as array
+
+
+// ------------------ Final Verdict ------------------
+// Array of objects real-world data ko represent karte hain.
+// Access = student[index].property
+// filter() = condition ke basis par new array
+// push/unshift = new object add karna
+// sort() = objects ko property ke basis par arrange karna
+// map() = specific property extract karna
+// reduce() = max/min/sum jaise calculations karna
+// Matlab: array + object combine practice tumhe real projects ke liye ready karega.

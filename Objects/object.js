@@ -1,3 +1,11 @@
+// OBJECTS IN JAVASCRIPT
+// Object ek collection hai key-value pairs ka.
+// Keys hamesha string ya symbol hote hain, aur values kisi bhi type ki ho sakti hain.
+// Objects real-world entities ko represent karne ke liye use hote hain (student, product, user).
+// Common operations: extract properties, freeze/seal, merge, destructure, check existence, nested objects.
+// Is file mein hum important object methods cover karenge with examples.
+
+
 // Create student object and print keys, values, entries.
 const student = {
     name : 'Rehan',
@@ -134,15 +142,15 @@ console.log({name:"Rehan"} == {name:"Rehan"}); //false
 // Chahe properties same ho, references alag hote hain, isliye comparison false aata hai.
 
 
-// Final Verdict
-// Object.keys / values / entries → extract properties
-// Object.freeze → no add/delete/modify allowed
-// Object.seal → modify allowed, add/delete not allowed
-// Destructuring → easy property extraction
-// Merge → spread operator or Object.assign()
-// Symbol → unique hidden property
-// hasOwnProperty → check if property exists directly
-// Nested objects → access with dot/bracket notation
-// Object.defineProperty → add property with custom settings (non-enumerable, non-writable)
-// {} + {} → string conversion → "[object Object][object Object]"
-// Comparing objects → always false unless same reference
+// ------------------ Final Verdict ------------------
+// Object.keys / values / entries = extract properties
+// Object.freeze = no add/delete/modify allowed
+// Object.seal = modify allowed, add/delete not allowed
+// Destructuring = easy property extraction
+// Merge = spread operator or Object.assign()
+// Symbol = unique hidden property
+// hasOwnProperty = check if property exists directly
+// Nested objects = access with dot/bracket notation
+// Object.defineProperty = add property with custom settings (non-enumerable, non-writable)
+// {} + {} = string conversion = "[object Object][object Object]"
+// Comparing objects = always false unless same reference

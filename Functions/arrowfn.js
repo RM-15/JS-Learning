@@ -133,7 +133,7 @@ console.log(first("Javascript")); // J
 // return + expression using arrow function
 
 
-// Final Verdict
+// ------------------ Final Verdict ------------------
 // Arrow functions ek shorter, modern syntax hai functions likhne ka.
 // Agar sirf ek expression hai to {} aur return ki zarurat nahi (implicit return).
 // Callbacks ke liye best (map, filter, reduce).

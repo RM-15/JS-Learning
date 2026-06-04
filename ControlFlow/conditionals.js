@@ -2,7 +2,7 @@
 // Conditionals ka use decision making ke liye hota hai.
 // Common constructs: if-else, switch, ternary operator, truthy/falsy values, logical operators.
 
-// IF-ELSE
+// ------------------ IF-ELSE ------------------
 // If-else ek basic conditional hai jo ek condition check karta hai aur uske basis pe code run karta hai.
 
 // Check if a number is positive or negative using if-else.
@@ -72,7 +72,7 @@ leap(2025); // 2025 is not a leap year
 
 
 
-// SWITCH
+// ------------------ SWITCH ------------------
 // Switch multiple cases handle karne ke liye use hota hai, jab ek hi variable ke multiple values check karni ho.
 
 // Print day of the week based on number (1 = Monday, 7 = Sunday).
@@ -203,7 +203,7 @@ shapeType(1); // Shape 1 = Circle
 
 
 
-// TERNARY OPERATOR
+// ------------------ TERNARY OPERATOR ------------------
 // Ternary operator ek short form hai if-else ka: condition ? expr1 : expr2
 
 // Check if a number is positive or negative using ternary.
@@ -246,7 +246,7 @@ console.log(string("Rehan")); // Pass
 // syntax = condition ? truth value : false value;
 
 
-// LOGICAL OPERATORS
+// ------------------ LOGICAL OPERATORS ------------------
 // Logical operators: AND (&&), OR (||), NOT (!)
 // Ye multiple conditions combine karne ke liye use hote hain.
 
@@ -314,7 +314,7 @@ exam(50,60); // Fail
 //AND operator is used
 
 
-// TRUTHY AND FALSY
+// ------------------ TRUTHY AND FALSY ------------------
 // JS mein kuch values truthy hoti hain (evaluate as true) aur kuch falsy (evaluate as false).
 // Falsy values: false, 0, "", null, undefined, NaN
 
@@ -351,11 +351,11 @@ look("I m not Empty") // I m not Empty = Truthy value
 //Non-Empty string is a Truthy value
 
 
-// FINAL VERDICT
+// ------------------ FINAL VERDICT ------------------
 // Conditionals JS mein decision making ke liye use hote hain.
 // Humne saare major constructs cover kiye:
-// 1. IF-ELSE → simple checks (positive/negative, even/odd, largest number, voting, leap year)
-// 2. SWITCH → multiple fixed cases (days, grades, months, traffic lights, shapes)
-// 3. TERNARY → short form if-else (positive/negative, even/odd, adult/minor, pass/fail, string valid/invalid)
-// 4. LOGICAL OPERATORS → combine conditions (AND, OR, NOT)
-// 5. TRUTHY/FALSY → JS mein kuch values automatically true ya false evaluate hoti hain
+// 1. IF-ELSE = simple checks (positive/negative, even/odd, largest number, voting, leap year)
+// 2. SWITCH = multiple fixed cases (days, grades, months, traffic lights, shapes)
+// 3. TERNARY = short form if-else (positive/negative, even/odd, adult/minor, pass/fail, string valid/invalid)
+// 4. LOGICAL OPERATORS = combine conditions (AND, OR, NOT)
+// 5. TRUTHY/FALSY = JS mein kuch values automatically true ya false evaluate hoti hain

@@ -1,3 +1,9 @@
+// NUMBERS & MATH IN JAVASCRIPT
+// JavaScript mein numbers ke saath kaam karne ke liye built-in methods hote hain.
+// Common operations: conversion, rounding, random generation, min/max, power, square root, absolute value.
+// Is file mein hum number aur Math methods cover karenge with examples.
+
+
 // Convert "123.45" into integer and float.
 const a = 123.45;
 // Convert to integer
@@ -75,14 +81,15 @@ console.log(Math.floor(Math.random() * 6) + 1); // random number between 1-6
 //math.floor is used to make the integer from 0-5 and +1 is used to make 0-6 
 
 
-// Final Verdict
-// parseInt / parseFloat → number conversion
-// toFixed → round decimals (string)
-// NaN → invalid conversion
-// Math.random + formula → random numbers
-// Math.max / Math.min → array extremes
-// Math.ceil / Math.floor → round up/down
-// Math.sqrt → square root
-// Math.pow → power
-// Math.abs → absolute value
-// Dice roll → random 1–6
+// ------------------ FINAL VERDICT ------------------
+// parseInt / parseFloat = number conversion
+// toFixed = round decimals (string)
+// NaN = invalid conversion
+// Math.random + formula = random numbers
+// Math.max / Math.min = array extremes
+// Math.ceil / Math.floor = round up/down
+// Math.sqrt = square root
+// Math.pow = power
+// Math.abs = absolute value
+// Dice roll = random 1–6
+// Matlab: ye methods tumhe number handling aur math operations ke liye ready karte hain.

@@ -126,9 +126,9 @@
 //iife ka syntax and expression 
 
 
-// Final Verdict
-// - IIFE ek function hai jo turant execute hota hai.
-// - Scope encapsulation karta hai aur global pollution avoid karta hai.
-// - Parameters pass kar sakte ho, arrow function bhi use kar sakte ho.
-// - Multiple IIFE likhte waqt semicolon zaruri hai.
-// - Mostly initialization aur private scope ke liye use hota hai.
+// ------------------ Final Verdict ------------------
+// IIFE ek function hai jo turant execute hota hai.
+// Scope encapsulation karta hai aur global pollution avoid karta hai.
+// Parameters pass kar sakte ho, arrow function bhi use kar sakte ho.
+// Multiple IIFE likhte waqt semicolon zaruri hai.
+// Mostly initialization aur private scope ke liye use hota hai.

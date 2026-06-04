@@ -1,3 +1,12 @@
+// VARIABLES IN JAVASCRIPT
+// Variables data store karne ke liye use hote hain.
+// 3 keywords: var, let, const
+// var = outdated, function scope, hoisting issues
+// let = block scope, reassign allowed
+// const = block scope, reassign not allowed
+// Is file mein hum variables ke saare important concepts cover karenge.
+
+
 // Declare a variable with var, let, and const. Print them.
 let a = 'Rehan';
 var b = 'Rishabh';
@@ -82,7 +91,12 @@ console.log(c5); //null
 // null ek intentional assignment hota hai jo batata hai ki variable ki value "kuch nahi" hai.
 
 
-// Final verdict
-// Jab value fix ho (jaise PI, API_KEY, MAX_USERS) → const use karo.
-// Jab value change ho sakti ho → let use karo.
-// var avoid karo kyunki outdated hai aur scope issues create karta hai.
+// ------------------ FINAL VERDICT ------------------
+// const = jab value fix ho (PI, API_KEY, MAX_USERS)
+// let = jab value change ho sakti ho
+// var = avoid karo (scope issues + outdated)
+// Hoisting: var = undefined, let/const = ReferenceError (TDZ)
+// Block scope: let/const respect {}, var ignore karta hai
+// Redeclaration: var allowed, let/const not allowed
+// Template literals = modern string formatting
+// null vs undefined = null = intentional empty, undefined = not assigned
