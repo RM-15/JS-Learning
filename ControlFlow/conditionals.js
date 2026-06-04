@@ -207,10 +207,43 @@ shapeType(1); // Shape 1 = Circle
 // Ternary operator ek short form hai if-else ka: condition ? expr1 : expr2
 
 // Check if a number is positive or negative using ternary.
+function plus(a) {
+    return a > 0 ? "Positive" : "Negative";  
+}
+console.log(plus(7)); // Positive
+// syntax = condition ? truth value : false value;
+
+
 // Check if a number is even or odd using ternary.
+function minus(a) {
+    return a % 2 === 0 ? "Even" : "Odd";  
+}
+console.log(minus(9)); //Odd
+// syntax = condition ? truth value : false value;
+
+
 // Print "Adult" if age >= 18 else "Minor".
+function age(a) {
+    return a >=18 ? "Adult" : "Minor";  
+}
+console.log(age(17)); // Minor
+// syntax = condition ? truth value : false value;
+
+
 // Print "Pass" if marks >= 40 else "Fail".
+function marks(a) {
+    return a >=40 ? "Pass" : "Fail";  
+}
+console.log(marks(50)); // Pass
+// syntax = condition ? truth value : false value;
+
+
 // Print "Valid" if input string length > 0 else "Invalid".
+function string(a) {
+    return a.length > 0  ? "Valid" : "Invalid";  
+}
+console.log(string("Rehan")); // Pass
+// syntax = condition ? truth value : false value;
 
 
 // LOGICAL OPERATORS
@@ -218,10 +251,67 @@ shapeType(1); // Shape 1 = Circle
 // Ye multiple conditions combine karne ke liye use hote hain.
 
 // Check if a number is between 10 and 20 using AND.
+function between(a){
+    if(a > 10 && a < 20){
+        console.log(`${a} is between 10 and 20`);
+    }
+    else {
+        console.log(`${a} is not between 10 and 20`);
+    }
+}
+between(45); // 45 is not between 10 and 20
+//AND operator is used
+
+
 // Check if a person is eligible for discount (age < 18 OR age > 60).
+function discount(a){
+    if(a < 18 || a > 60){
+        console.log("Eligible for Discount");
+    }
+    else {
+        console.log("Not eligible for Discount");
+    }
+}
+discount(38); // Not eligible for Discount 
+//OR operator is used
+
 // Check if a number is NOT zero using NOT.
+function equal(a){
+    if(a != 0){
+        console.log(`${a} is not equal to zero`);
+    }
+    else {
+        console.log(`${a} is equal to zero`);
+    }
+}
+equal(6); // 6 is not equal to zero 
+//NOT Operator is used
+
+
 // Check if a string is non-empty AND starts with "A".
+function empty(a){
+    if(a.length > 0 && a[0] === "A"){
+        console.log(`${a} is not empty and starts with A`);
+    }
+    else {
+        console.log("Condition Failed");
+    }
+}
+empty("abcd"); // Condition Failed
+// because in the condition there is capital "A" and the input says 'abcd' 
+
+
 // Check if a student passes (marks >= 40 AND attendance >= 75).
+function exam(marks,att){
+    if( marks >= 40 && att >= 75){
+        console.log("Pass");
+    }
+    else {
+        console.log("Fail");
+    }
+}
+exam(50,60); // Fail
+//AND operator is used
 
 
 // TRUTHY AND FALSY
@@ -229,7 +319,43 @@ shapeType(1); // Shape 1 = Circle
 // Falsy values: false, 0, "", null, undefined, NaN
 
 // Check if a variable is truthy or falsy.
+function look(value){
+    if(value){
+        console.log(`${value} = Truthy value`);
+    }
+    else {
+        console.log(`${value} = Falsy value`);
+    }
+}
+look([]); // = Truthy Value
+// [] (empty array) bhi truthy hota hai JS mein
+
+
 // Check if an empty string is falsy.
+look("") // = Falsy value
+//empty string is a falsy value
+
+
 // Check if 0 is falsy.
+look(0); // 0 = Falsy value
+// 0 is a Falsy value
+
+
 // Check if null is falsy.
+look(null); // null = Falsy value
+//null is also Falsy value
+
+
 // Check if a non-empty string is truthy.
+look("I m not Empty") // I m not Empty = Truthy value
+//Non-Empty string is a Truthy value
+
+
+// FINAL VERDICT
+// Conditionals JS mein decision making ke liye use hote hain.
+// Humne saare major constructs cover kiye:
+// 1. IF-ELSE → simple checks (positive/negative, even/odd, largest number, voting, leap year)
+// 2. SWITCH → multiple fixed cases (days, grades, months, traffic lights, shapes)
+// 3. TERNARY → short form if-else (positive/negative, even/odd, adult/minor, pass/fail, string valid/invalid)
+// 4. LOGICAL OPERATORS → combine conditions (AND, OR, NOT)
+// 5. TRUTHY/FALSY → JS mein kuch values automatically true ya false evaluate hoti hain
