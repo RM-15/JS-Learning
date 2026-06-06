@@ -46,17 +46,17 @@ console.log(buttons.closest(".bg-color")); // <body class="bg-color">...</body>
 // Target the body element and fetch all its element children (HTMLCollection format).
 const body = document.querySelector("body");
 console.log(body.children); //HTMLCollection(10) [h1#heading, h3.description, h3.description, h3.description, p.para1, p.para2, p.para3, div.wrapper, script, script, heading: h1#heading]
-// children = sirf child elements (HTMLCollection) return krta hai
+// children sirf child elements (HTMLCollection) return krta hai
 
 
 // Get the total count of direct child elements inside the body tag using .children.length.
 console.log(body.childNodes); // NodeList(20) [text, h1#heading, text, h3.description, text, h3.description, text, h3.description, text, p.para1, text, p.para2, text, p.para3, text, div.wrapper, text, script, text, script]
-// childNodes = sabhi nodes (elements + text/white space)
+// childNodes sabhi nodes (elements + text/white space)
 
 
 // Target the body and print the innerText of its firstElementChild.
 console.log(body.firstElementChild.innerText); // Hello DOM
-// firstElementChild = pehla child element return krta hai
+// firstElementChild pehla child element return krta hai
 
 
 // Target the body and print the innerText of its lastElementChild (the script tag or last button).

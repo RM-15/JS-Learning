@@ -39,13 +39,13 @@ console.log(conth1); // Hello DOM
 // Fetch the value of the 'id' attribute from the element.
 const att = h1.getAttribute("id")
 console.log(att); //heading
-// getAttribute("attrName") = element ke kisi attribute ka value nikalne ke liye.
+// getAttribute("attrName") element ke kisi attribute ka value nikalne ke liye.
 
 
 // Add a new custom attribute 'data-status' with value 'active' to it.
 h1.setAttribute("data-status", "active")
 console.log(h1.getAttribute("data-status")); //active
-// setAttribute("attrName", "value") = element ke attribute ko set/update karne ke liye.
+// setAttribute("attrName", "value") element ke attribute ko set/update karne ke liye.
 
 
 // ------------------ DOCUMENT.GETELEMENTSBYCLASSNAME() ------------------
@@ -145,13 +145,13 @@ console.log(attblockStrc); // <h1 id="heading" data-status="active">Hello DOM</h
 // Print the innerHTML of the main title using querySelector.
 const h1html = document.querySelector("h1");
 console.log(h1html.innerHTML); // Hello DOM
-// innerHTML = element ke andar ka pura HTML code deta hai (tags + text).
+// innerHTML element ke andar ka pura HTML code deta hai (tags + text).
 
 
 // Print the outerHTML of the main title using querySelector.
 const h1outer = document.querySelector("h1");
 console.log(h1outer.outerHTML); // <h1 id="heading">Hello DOM</h1>
-// outerHTML = element khud + uske andar ka HTML code deta hai.
+// outerHTML element khud + uske andar ka HTML code deta hai.
 
 
 // ------------------ DOCUMENT.QUERYSELECTORALL() ------------------
