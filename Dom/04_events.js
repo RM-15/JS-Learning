@@ -1,4 +1,4 @@
-// ------------------ JAVASCRIPT EVENTS & INTERACTIVITY ------------------
+// EVENTS IN JAVASCRIPT
 // Events ka matlab hai user ke actions (click, hover, keypress, input) ko capture karna
 // aur unke response mein JavaScript code chalana.
 // Matlab: UI ko interactive banane ke liye event listeners use karte hain.
