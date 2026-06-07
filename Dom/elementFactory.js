@@ -113,6 +113,7 @@ para1.style.fontSize = "20px";
 // Create a button, set padding/text properties inline, and mount it onto DOM.
 const btn2 = document.createElement("button");
 btn2.innerText = "Don't Click"; 
+btn2.id = "imbtn2"
 btn2.style.padding = "5px 5px"                            
 document.body.appendChild(btn2);        
 console.log(btn2); // <button style="padding: 5px;">Don't Click</button>
