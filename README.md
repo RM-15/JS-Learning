@@ -59,6 +59,28 @@ Direct interaction with the browser's render tree, high-performance event trigge
     <li><b>04_events.js:</b> User interaction event listener tracking matrices.</li>
     <li><b>05_localStorage.js:</b> Client-side data persistence layers utilizing JSON-serialized objects string data streams.</li>
 </ul>
+<h3>6. Asynchronous Concurrency & Runtime (`Async/`)</h3>
+<p>
+Mastering non-blocking execution models, microtask queues management, and handling live network operations.
+</p>
+<ul>
+    <li><b>01_callbacks.js:</b> Inversion of control, timing hierarchies, and fundamental asynchronous blocks.</li>
+    <li><b>02_promises.js:</b> Deferred states parsing, asynchronous pipelines execution, and promise object chaining.</li>
+    <li><b>03_asyncAwait.js:</b> Syntactic structure handling synchronous-looking asynchronous script orchestration layers.</li>
+    <li><b>04_fetchAPI.js:</b> Real-world REST API stream integration, request payloads, and network response controls.</li>
+</ul>
+<h3>7. Object-Oriented Engineering (`OOP/`)</h3>
+<p>
+Unlocking native engine mechanics, compilation architectures, context bindings, and structural inheritance paradigms.
+</p>
+<ul>
+    <li><b>01_constructors.js:</b> Blueprint factories configuration, the new keyword lifecycle parameters, and instances validation flags.</li>
+    <li><b>02_prototype.js:</b> Prototypal inheritance linkages, dynamic behavior injection, and manual prototype shifting mechanics.</li>
+    <li><b>03_callBind.js:</b> Explicit execution context overrides via call, apply, and permanent context locking rules using bind.</li>
+    <li><b>04_classes.js:</b> Syntactic sugar classes wrapper, internal constructor functions parsing, and inheritance paths using extends and super().</li>
+    <li><b>05_getterSetter.js:</b> Safe data encryption protocols, memory encapsulation layers, and recursive call-stack overflow crash preventions.</li>
+    <li><b>06_closures.js:</b> Lexical boundary rules, call stack clearing metrics, and preserving zinda memory references via Closures.</li>
+</ul>
 <h2> Core Methodology & Syntax Rules</h2>
 <ul>
     <li>
@@ -97,12 +119,6 @@ Normal JavaScript global variables instantly flash and reset during system reloa
         <b>The Solution:</b>
         I mastered serialization mechanics using JSON stringify workflows to turn live system objects into plain secure text streams. These are cached in browser local storage and reconstructed safely back into functional logic instances via data parsing layers.
     </li>
-</ul>
-<h2> Future Engineering Roadmap</h2>
-<ul>
-    <li>Implement asynchronous JavaScript execution pipelines (Async/Await and Promises)</li>
-    <li>Integrate dynamic third-party REST API fetch engines</li>
-    <li>Transition native script modules into scalable frontend component architectures</li>
 </ul>
 <h2>⚙️ System Setup</h2>
 <ol>
